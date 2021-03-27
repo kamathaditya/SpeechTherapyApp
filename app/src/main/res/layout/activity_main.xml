@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:rotation="-360"
+        android:rotationX="-360"
+        android:rotationY="-360"
+        android:text="Speech Therapy App"
+        android:translationX="150dp"
+        android:translationY="250dp" />
+
+    <Button
+        android:id="@+id/grammarActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grammar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+
+    <Button
+        android:id="@+id/mathActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:text="MATH" />
+
+    <Button
+        android:id="@+id/comprehensionActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comprehension"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/voiceActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="150dp"
+        android:translationY="700dp"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        tools:layout_editor_absoluteX="359dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="150dp"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="370dp"
+        android:translationY="250dp"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="250dp"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="647dp" />
+
+</RelativeLayout>
